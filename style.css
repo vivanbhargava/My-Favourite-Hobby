@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+}
+
+.menu {
+    list-style: none;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    position: fixed;
+    cursor: pointer;
+
+}
+
+.links {
+    font-size: 25px;
+    float: left;
+    padding: 10px;
+    color: darkblue;
+    font-family: 'Anton', sans-serif;
+}
+
+.links:hover {
+    background-color: white;
+}
+
+#main {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(lightblue, yellowgreen);
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+    padding-top: 50px;
+}
+
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px;
+}
+
+#about {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(yellowgreen, lightblue);
+}
+
+
+h2 {
+    font-size: 20px;
+    color: #1A237E;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 18px;
+    color: #6A1B9A;
+}
+#bs{
+     padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(lightblue, yellowgreen);
+}
+#mr{
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(yellowgreen, lightblue);
+}
+#contact{
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(lightblue, yellowgreen);
+}
+h3{
+    color:blue
+}
