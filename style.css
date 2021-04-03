@@ -1,9 +1,6 @@
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     text-align: center;
+       margin: -20px;
 }
 
 .menu {
@@ -14,7 +11,6 @@ body {
     margin-top: 0px;
     width: 100%;
     list-style: none;
-
 }
 
 .links {
@@ -36,77 +32,82 @@ a {
     text-shadow: 2px 2px lightgrey;
 }
 
-#welcome {
+#mfh {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
     background: linear-gradient(lightblue, yellowgreen);
-    width: 110%;
-    margin: 0px;
-    margin-left: -10px;
-    right: 0px;
-    z-index: 1;
-    padding-top: 100px;
-    margin: -20px;
 }
 
 img {
     border-radius: 50%;
+    width: 100px;
+    padding-top: 50px;
 }
 
 h1 {
-    color: red;
-
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px;
 }
 
-#name {
-    font-family: cursive;
-    color: red;
+#about {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: linear-gradient(yellowgreen, lightblue);
 }
+
 
 h2 {
-    color: red;
-}
-
-#main {
-    background: linear-gradient(yellowgreen, lightblue);
-    margin: -20px;
+    font-size: 20px;
+    color: #1A237E;
 }
 
 .line {
-    height: 5px;
-    width: 100px;
+    height: 6px;
     background-color: black;
-    margin: 5px auto;
+    width: 70px;
+    margin: 8px auto;
 }
 
 p {
-    max-width: 80%;
-    margin: 25px auto;
-    color: red;
+    font-size: 18px;
+    color: #6A1B9A;
 }
 
-#videos {
+#bs {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
     background: linear-gradient(lightblue, yellowgreen);
-    margin: -20px;
 }
 
-#work {
+#mr {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
     background: linear-gradient(yellowgreen, lightblue);
-    margin: -20px;
 }
 
-#writings {
+#contact {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
     background: linear-gradient(lightblue, yellowgreen);
-    margin: -20px;
 }
 
+h3 {
+    color: blue
+}
 #writings a {
     text-shadow: none !important;
 }
 
 #contact {
     background: linear-gradient(yellowgreen, lightblue);
-    margin: -20px;
 }
 
 #contact h3 {
     display: inline;
 }
+
