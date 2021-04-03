@@ -1,91 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     text-align: center;
-    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
 }
 
 .menu {
-    list-style: none;
-    top: 10px;
-    right: 10px;
+    top: 0px;
     z-index: 10;
     position: fixed;
-    cursor: pointer;
+    background: white;
+    margin-top: 0px;
+    width: 100%;
+    list-style: none;
 
 }
 
 .links {
-    font-size: 25px;
-    float: left;
-    padding: 10px;
-    color: darkblue;
-    font-family: 'Anton', sans-serif;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: fantasy;
 }
 
 .links:hover {
-    background-color: white;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
-#main {
-    padding: 20px;
-    font-size: 18;
-    text-align: center;
+a {
+    text-decoration: none;
+    color: royalblue;
+    text-shadow: 2px 2px lightgrey;
+}
+
+#welcome {
     background: linear-gradient(lightblue, yellowgreen);
+    width: 110%;
+    margin: 0px;
+    margin-left: -10px;
+    right: 0px;
+    z-index: 1;
+    padding-top: 100px;
+    margin: -20px;
 }
 
 img {
     border-radius: 50%;
-    width: 100px;
-    padding-top: 50px;
 }
-
 
 h1 {
-    text-shadow: 2px 2px #F8BBD0;
-    font-size: 20px;
+    color: red;
+
 }
 
-#about {
-    padding: 20px;
-    font-size: 18;
-    text-align: center;
-    background: linear-gradient(yellowgreen, lightblue);
+#name {
+    font-family: cursive;
+    color: red;
 }
-
 
 h2 {
-    font-size: 20px;
-    color: #1A237E;
+    color: red;
+}
+
+#main {
+    background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
 }
 
 .line {
-    height: 6px;
+    height: 5px;
+    width: 100px;
     background-color: black;
-    width: 70px;
-    margin: 8px auto;
+    margin: 5px auto;
 }
 
 p {
-    font-size: 18px;
-    color: #6A1B9A;
+    max-width: 80%;
+    margin: 25px auto;
+    color: red;
 }
-#bs{
-     padding: 20px;
-    font-size: 18;
-    text-align: center;
+
+#videos {
     background: linear-gradient(lightblue, yellowgreen);
+    margin: -20px;
 }
-#mr{
-    padding: 20px;
-    font-size: 18;
-    text-align: center;
+
+#work {
     background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
 }
-#contact{
-    padding: 20px;
-    font-size: 18;
-    text-align: center;
+
+#writings {
     background: linear-gradient(lightblue, yellowgreen);
+    margin: -20px;
 }
-h3{
-    color:blue
+
+#writings a {
+    text-shadow: none !important;
+}
+
+#contact {
+    background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
+}
+
+#contact h3 {
+    display: inline;
 }
